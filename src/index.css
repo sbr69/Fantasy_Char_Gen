@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-uncial {
+    font-family: 'Uncial Antiqua', cursive, serif;
+  }
+
+  .font-cinzel {
+    font-family: 'Cinzel Decorative', 'Cinzel', serif;
+  }
+
+  /* Professional Deep Charcoal Canvas */
+  .alchemist-bg {
+    background-color: #0b0d12;
+    background-image: 
+      radial-gradient(circle at 50% 0%, rgba(217, 119, 6, 0.07) 0%, transparent 60%),
+      radial-gradient(circle at 85% 90%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
+      linear-gradient(to bottom, #0b0d12, #07080c);
+  }
+
+  /* Sleek Player Card Frame */
+  .arcane-card-frame {
+    position: relative;
+    border-radius: 1rem;
+    background: #121620;
+    box-shadow: 
+      0 20px 40px -15px rgba(0, 0, 0, 0.7),
+      0 0 0 1px rgba(245, 158, 11, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  /* Flat Modern Surface Panels */
+  .clay-surface {
+    background: #141824;
+    border-radius: 1rem;
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+  }
+
+  .clay-surface-subtle {
+    background: #181d2b;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+  }
+
+  /* Inset Wells for Stats and Inputs */
+  .clay-well {
+    background: #0d1017;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  /* Buttons - Clean Solid Color & High Contrast */
+  .clay-btn-amber {
+    background-color: #f59e0b;
+    color: #0d1017;
+    font-weight: 700;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.25);
+    border: 1px solid rgba(254, 243, 199, 0.3);
+    transition: all 0.15s ease-in-out;
+  }
+
+  .clay-btn-amber:hover {
+    background-color: #d97706;
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+  }
+
+  .clay-btn-amber:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 4px rgba(245, 158, 11, 0.2);
+  }
+
+  .clay-btn-purple {
+    background-color: #8b5cf6;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(139, 92, 246, 0.25);
+    border: 1px solid rgba(233, 213, 255, 0.25);
+    transition: all 0.15s ease-in-out;
+  }
+
+  .clay-btn-purple:hover {
+    background-color: #7c3aed;
+    box-shadow: 0 4px 14px rgba(139, 92, 246, 0.4);
+  }
+
+  .clay-btn-emerald {
+    background-color: #10b981;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.25);
+    border: 1px solid rgba(167, 243, 208, 0.25);
+    transition: all 0.15s ease-in-out;
+  }
+
+  .clay-btn-dark {
+    background-color: #1e2638;
+    color: #e2e8f0;
+    font-weight: 600;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.15s ease-in-out;
+  }
+
+  .clay-btn-dark:hover {
+    background-color: #2a344d;
+    border-color: rgba(245, 158, 11, 0.3);
+    color: #ffffff;
+  }
+
+  /* Badge / Pill */
+  .clay-pill {
+    background-color: #181d2b;
+    border-radius: 9999px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  /* Portrait Ring */
+  .clay-portrait-ring {
+    border-radius: 0.75rem;
+    border: 2px solid rgba(245, 158, 11, 0.4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Custom scrollbars */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(13, 16, 23, 0.8);
+  border-radius: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(245, 158, 11, 0.3);
+  border-radius: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.6);
+}

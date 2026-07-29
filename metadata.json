@@ -1,0 +1,8 @@
+{
+  "name": "Remix Fantasy Character Generator",
+  "description": "Generate random fantasy RPG characters with names, classes, attributes, and lore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
